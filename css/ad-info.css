@@ -1,0 +1,185 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+main{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+}
+#product-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    min-width: 400px; 
+    position: relative; 
+    margin-top:1rem; 
+    margin-bottom: 1rem;
+}
+
+#like-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: lightcyan;
+    cursor: pointer;
+}
+
+#like-count {
+    position: absolute;
+    top: 10px;
+    right: 3rem;
+    font-size: 1.4rem;
+    color: red; 
+    font-weight: 800;
+} 
+.fa-heart:hover{ 
+    color: red;
+}
+
+#product-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: fill;
+}
+
+#product-details {
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+#category {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#price {
+    font-size: 24px;
+    color: #007bff;
+}
+
+#reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+#rating {
+    margin-left: 5px;  
+    font-size: 1rem;
+   color: gold;
+}
+
+#posted-by {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+} 
+#comments-section {
+    min-width: 30vw;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 1px  ;   
+    border-right: 1px  ;   
+    border-bottom: 1px  ;  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    border-bottom-right-radius: 8px; 
+    border-top-right-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#comments-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment p {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+#new-comment-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#submit-comment ,#btn-rate{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px; 
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit-comment:hover,#btn-rate:hover {
+    background-color: #0056b3;
+} 
+
+.fa-star { 
+    color: lightcyan; 
+    font-size: 1.2rem; 
+    transition: color 0.4s ease;
+} 
+
+.fa-star.active{ 
+    color: gold;
+}  
+.fa-heart.active{ 
+    color:red;
+}
+#average-rating{ 
+    font-size: 1.2rem; 
+    color: #555; 
+    margin-left:10px;
+} 
+#error{ 
+    color: red; 
+    font-size: 1.1rem; 
+    display: none;
+}

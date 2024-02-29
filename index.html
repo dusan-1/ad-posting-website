@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekat</title> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body> 
+     <h1> Web Aplikacija za postavljanje oglasa</h1> 
+     <br>  
+     <div class="show-categories" style="display: flex; justify-content: center; max-height: 85vh;"> 
+            
+     </div> 
+     <br>
+     <div class="login-data"> 
+        <div class="input-login"> 
+            <label for="korisnicko" style="font-family: 'Roboto', sans-serif; font-size: 1.2rem; color: #4caf50;"> 
+                Korisnicko Ime: 
+            </label> 
+            <input type="text" id="input-korisnicko" minlength="7" maxlength="22" name="korisnicko" required> 
+            <p class="login-error">Unesite korisnicko ime</p>
+        </div>  
+        <div class="input-login"> 
+            <label for="password" style="font-family: 'Roboto', sans-serif; font-size: 1.2rem; color: #4caf50;" >       
+                Lozinka: 
+            </label> 
+            <input type="password" id="input-lozinka" minlength="6" maxlength="14" name="password" required> 
+            <p class="login-error">Unesite lozinku</p>
+        </div>
+     </div> 
+     <br> 
+     <button id="btn-login" onclick="login()">Login</button>  
+     <br><br>
+     <a href="register.html"style="display:flex;justify-content: center;"">Registracija</a> 
+     <br>
+    
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

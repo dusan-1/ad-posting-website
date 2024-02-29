@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad ADD</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/ad-Edit-Add.css">
+</head>
+<body>
+    <h1>Oglas Dodaj</h1> 
+    <div id="container">  
+        <div class="inputDiv">
+            <label for="title">Naziv:</label>
+            <input type="text" id="title" name="Naziv" required >  
+            <p id="titleError" class="error-message"></p>
+        </div>
+        
+        <div class="inputDiv">
+            <label for="description">Opis:</label>
+            <input type="text" id="description" name="Opis" required >  
+            <p id="descriptionError" class="error-message"></p>
+        </div>
+         
+        <div class="inputDiv">
+            <label for="price">Cena:</label>
+            <input type="number" id="price" name="Cena" required>  
+            <p id="priceError" class="error-message"></p>
+        </div>
+        
+        <div class="inputDiv">
+            <label for="image">Slika URL:</label>
+            <input type="url" id="image" name="URL" required>  
+            <p id="imageError" class="error-message"></p>
+        </div>
+         
+        <select id="selectCategory"> </select>
+    </div> 
+    <br> 
+    <button onclick="adAdd()">Dodaj Oglas</button> 
+    <div id="errorMessages" class="error-message"></div>
+
+    <script src="js/adEditAdd.js"></script>
+</body>
+</html>

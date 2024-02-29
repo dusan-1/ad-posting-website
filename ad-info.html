@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Info</title> 
+    <link rel="stylesheet" href="css/ad-info.css"> 
+    <script src="https://kit.fontawesome.com/2f8967d77f.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+    <main>
+        <div id="product-container">
+            <div id="like-icon"><i class="fa-solid fa-heart"></i></div>
+            <div id="like-count"></div> 
+            <div id="product-image-div">
+                <img id="product-image" src="" alt="Product Image"> 
+            </div>
+            <div id="product-details">
+                <h1 id="title"></h1>
+                <p id="category"></p>
+                <p id="description"></p>
+                <p id="price"></p>
+                <div id="reviews"> 
+                    <p id="rating">Rating: 
+                        <i class="fa-solid fa-star"></i> 
+                        <i class="fa-solid fa-star"></i> 
+                        <i class="fa-solid fa-star"></i> 
+                        <i class="fa-solid fa-star"></i> 
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <p id="reviews-count"></p> 
+                    <p id="average-rating"></p> 
+                </div>  
+                <span id="error">Niste izabrali ocenu</span>
+                <button id="btn-rate" onclick="submitRating()">Oceni oglas</button>
+                <p id="posted-by">Posted by: </p>
+            </div> 
+        </div> 
+        <div id="comments-section">
+            <h2 id="comments-header">Comments</h2>
+            <ul id="comment-list">
+                
+            </ul>
+            <textarea id="new-comment-input" placeholder="Add a new comment"></textarea> 
+            <span id="error2" style="display: none; color: red;">Polje ne sme biti prazno</span>
+            <button id="submit-comment" onclick="addComment()">Postavi komentar</button> 
+        </div> 
+    </main>
+
+
+    <script src="js/adInfo.js"></script>
+</body>
+</html>

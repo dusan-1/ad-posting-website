@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Category</title> 
+    <link rel="stylesheet" href="css/category-add.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Postavljanje Kategorije</h1> 
+    <div id="container"> 
+        <div> 
+            <label>Name:</label> 
+            <input type="text" id="name-input"> 
+            <p class="error-message">Popunite polje Name</p>
+        </div>  
+        <br>
+        <div> 
+            <label>Image:</label> 
+            <input type="url" id="image-input"> 
+            <p class="error-message">Popunite polje Image</p>
+        </div> 
+        <br> 
+        <button id="editBtn" onclick="addCategory()">Add Category</button>
+    </div>
+
+    <script src="js/category_add.js"></script>
+</body>
+</html>

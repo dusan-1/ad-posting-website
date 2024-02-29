@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Dusan",
+      "lastName": "Taskovic",
+      "username": "dusantaskovic",
+      "password": "lozinka1",
+      "address": "Nis",
+      "phoneNumber": "066123456",
+      "gender": "Male",
+      "admin": true
+    },
+    {
+      "id": "2",
+      "firstName": "Nikola",
+      "lastName": "Markovic",
+      "username": "nikolamarkovic",
+      "password": "lozinka2",
+      "address": "Beograd",
+      "phoneNumber": "066123467",
+      "gender": "Male",
+      "admin": false
+    },
+    {
+      "id": "0b2c",
+      "firstName": "Marija",
+      "lastName": "Jovic",
+      "username": "marijajovic",
+      "password": "lozinka3",
+      "address": "Palanka",
+      "phoneNumber": "06578947",
+      "gender": "Female",
+      "admin": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "f116",
+      "name": "Konzole",
+      "image": "https://www.computerland.rs/login/media/images/products/0-72599900-1675688171.jpg"
+    },
+    {
+      "id": "46d0",
+      "name": "Bela Tehnika",
+      "image": "https://dijaspora.shop/media/catalog/product/cache/1/thumbnail/1000x1000/9df78eab33525d08d6e5fb8d27136e95/c/s/cs5400sw.png"
+    },
+    {
+      "id": "36a6",
+      "name": "Racunari",
+      "image": "https://www.ctshop.rs/product/img/kucista/cooler-master-cosmos-iirc-1200-kkn2kuite-/square/36960879_4000885203.jpg"
+    },
+    {
+      "id": "849c",
+      "name": "Mobilni Telefoni",
+      "image": "https://istyle.rs/media/catalog/product/i/p/iphone_15_black_pdp_image_position-1__en-us_2.jpg"
+    }
+  ],
+  "ads": [
+    {
+      "title": "Graficka",
+      "description": "AMD RX 580",
+      "price": 1000,
+      "image": "https://www.ctshop.rs/img/products/2020-03-20/asus-radeon-rx-580-arez-dual-rx580-o8g-8gb-gddr5-256bit_8zefH_4.jpg",
+      "likes": 11,
+      "reviews": 31,
+      "rating": [
+        3,
+        1,
+        1,
+        3,
+        1
+      ],
+      "categoryId": "36a6",
+      "userId": "0b2c",
+      "id": "1"
+    },
+    {
+      "title": "Procesor",
+      "description": "Intel I5 10400",
+      "price": 1500,
+      "image": "https://s.cdnmpro.com/886237972/p/l/0/cpu-intel-core-i5-10400f-6c-12t-2-9-ghz-4-3-ghz-12mb-65w-lga-1200-box~2250.jpg",
+      "likes": 5,
+      "reviews": 42,
+      "rating": [
+        3,
+        1,
+        3,
+        3
+      ],
+      "categoryId": "36a6",
+      "userId": "2",
+      "id": "2"
+    },
+    {
+      "id": "437a",
+      "title": "LG",
+      "description": "LG Smart Fridge",
+      "price": 20000,
+      "image": "https://img.gigatron.rs/img/products/large/LG-Kombinovani-fri%C5%BEider-GTF916PZPYD--82.jpg",
+      "likes": 3,
+      "reviews": 21,
+      "rating": [
+        4,
+        5,
+        2,
+        1,
+        5
+      ],
+      "categoryId": "46d0",
+      "userId": "0b2c"
+    }
+  ],
+  "comments": [
+    {
+      "id": "2",
+      "text": "Intel je najbolji",
+      "adId": "2",
+      "userId": "1"
+    },
+    {
+      "id": "d823",
+      "text": "Intel je bolji od AMD",
+      "adId": "2",
+      "userId": "2"
+    },
+    {
+      "id": "c40d",
+      "text": "Odlican frizder , preoporuka!!!",
+      "adId": "437a",
+      "userId": "0b2c"
+    },
+    {
+      "id": "8a8a",
+      "text": "Odlican frizder,preporuka!!!",
+      "adId": "437a",
+      "userId": "0b2c"
+    },
+    {
+      "id": "7008",
+      "text": "Odlicno!!!",
+      "adId": "2",
+      "userId": "0b2c"
+    },
+    {
+      "id": "2265",
+      "text": "predobar proizvod",
+      "adId": "2",
+      "userId": "0b2c"
+    },
+    {
+      "id": "3f4a",
+      "text": "kupite sutra",
+      "adId": "2",
+      "userId": "0b2c"
+    }
+  ]
+}
